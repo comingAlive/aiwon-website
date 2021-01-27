@@ -31,7 +31,7 @@ export const Input = () => {
       onMouseOut={() => () => authDispatch({ type: "INPUT_HOVER_OFF" })}
       maxLength={5}
       value={formInput}
-      placeholder={"Ограниченный вход"}
+      placeholder={"Limited access"}
     />
   );
 };
